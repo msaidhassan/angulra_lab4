@@ -27,9 +27,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css" , "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -90,12 +90,15 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css" , "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7d9e78f2-aede-4ab4-aba3-4e51cd9cf93d"
   }
 }

@@ -1,0 +1,32 @@
+/* Basic reset to remove default padding/margins */
+.nav-menu {
+    list-style-type: none ; 
+    padding: 0;
+    margin: 0;
+    display: flex;  
+    background-color: #f30909 !important;
+    overflow: hidden;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    background-color: #575757;
+}
+
+.nav-menu li a.active {
+    background-color: #4CAF50; /* Active link color */
+    color: white;
+    font-weight: bold;
+}

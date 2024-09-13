@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h4 class="alert alert-dark w-75 m-auto mb-3 mt-3 text-center">Students</h4>
+            <table class="table table-borderd table-hover text-center w-75 m-auto">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (std of Students; track std?.name) {
+                        <tr>
+                            <td>{{std?.name}}</td>
+                            <td>{{std?.age}}</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
